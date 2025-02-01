@@ -19,7 +19,7 @@ import lombok.experimental.FieldDefaults;
 @Getter
 @Setter
 @ToString
-@FieldDefaults(level = AccessLevel.PACKAGE)
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class Post
 {
 	@Id
